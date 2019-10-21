@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>成绩自动查询系统</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <script  type="text/javascript" src="./src/js/jquery.min.js"></script>
+  <link rel="stylesheet" href="./src/css/amazeui.min.css" />
+  <link rel="stylesheet" href="./src/css/all.css" />
+  <script type="text/javascript" src="./src/js/post.js"> </script>
+</head>
+<body>
+  <div class="am-u-lg-centered am-u-lg-5 am-margin-top-xl">
+    <div class="am-u-sm-12 am-text-middle am-margin-top-xl am-margin-bottom-xl" align="center">
+          <img src="src/logo.png" class="am-u-sm-12 am-u-sm-centered" ><br>
+      <label class="am-text-xl "><font color='white'>教务系统成绩查询</font></label><small><font color='white'><font color='white'>Beta版</font></small></div>
+    <form class="am-form am-form-horizontal" action="/" method="post" id="data">
+      <div class="am-form-group">
+        <div class="am-u-sm-12 am-margin-top-xs">
+          <input type="text" id="username" name="username" placeholder="请输入学号" style="font-size: 14px">
+        </div>
+      </div>
+
+      <div class="am-form-group">
+        <div class="am-u-sm-12 am-margin-top-xs">
+          <input type="password" id="password" name="password" class="am-text-sm" placeholder="请输入密码" style="font-size: 14px">
+        </div>
+      </div>
+      <div class="am-form-group">
+        <div class="am-u-sm-12 am-margin-top-xs">
+          <input type="text" id="email" class="am-text-sm" placeholder="请输入邮箱，用于接收成绩" style="font-size: 14px">
+        </div>
+      </div>
+      <div class="am-form-group am-margin-top-xl">
+        <div class="am-u-sm-12 am-text-middle ">
+          <button type="button" class="am-btn am-btn-primary am-btn-block" onclick="doPost()">提交</button>
+        </div>
+      </div>
+    </form>
+    <h5 class="am-text-sm am-text-center am-margin-top-xl">POWER BY <a href='https://www.36k.xyz'>36K.XYZ</a>&copy; 2018</h5>
+  </div>
+</body>
+
+</html>
