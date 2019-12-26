@@ -1,0 +1,8 @@
+stages:
+- name: cce
+  steps:
+  - runScriptConfig:
+      image: sh
+      shellScript: sh
+timeout: 60
+notification: {}
